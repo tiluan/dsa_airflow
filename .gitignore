@@ -1,0 +1,16 @@
+# Ignore environment files and logs
+.env
+logs/
+__pycache__/
+*.pyc
+*.log
+.vscode/
+/.idea/
+/.pytest_cache/
+
+# Ignore Docker local override
+docker-compose.override.yml
+
+# Ignore Python virtual envs
+venv/
+env/
