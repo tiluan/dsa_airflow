@@ -1,4 +1,3 @@
-
 # Projeto 3 - Extração de Dados via API com Apache Airflow
 
 # Imports
