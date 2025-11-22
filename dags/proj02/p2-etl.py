@@ -25,7 +25,7 @@ dag = DAG(
     default_args=default_args,                     # Aplicando os argumentos padrões
     description='Projeto 2',                       # Descrição da DAG
     schedule_interval='15 22 * * *',               # Agendamento: Executar diariamente às 22:15
-    tags=['proj2', 'etl']                            # Tags para categorização e busca da DAG
+    tags=['proj02', 'etl']                            # Tags para categorização e busca da DAG
 )
 
 # Definindo a primeira tarefa usando BashOperator

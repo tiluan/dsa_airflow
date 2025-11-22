@@ -13,7 +13,7 @@ from proj03.p3_etl import processo_etl
 default_args ={
     'owner':'luan',
     'depends_on_past':False,
-    'start_date':dt.datetime.today(),
+    'start_date':datetime(2025, 11, 22),
     'email':['contatos_luan@hotmail.com'],
     'email_on_failure':False,
     'email_on_retry':False,
@@ -23,9 +23,10 @@ default_args ={
 
 # DAG
 dag = DAG('p3_dag',
-              default_args = default_args,
-              description = 'Projeto 3',
-              schedule_interval = timedelta(minutes=60)
+        default_args = default_args,
+        description = 'Projeto 3',
+        schedule_interval = timedelta(minutes=60),
+        tags = ['proj03']
 )
 
 # PythonOperator
