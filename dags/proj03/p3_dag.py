@@ -1,15 +1,4 @@
-# Projeto 2 - Extração de Dados via API com Apache Airflow
 
-# Imports
-import datetime as dt
-from datetime import timedelta
-from airflow import DAG
-from airflow.operators.python_operator import PythonOperator
-from datetime import datetime
-from airflow.utils.dates import days_ago
-from p3_etl import processo_etl
-
-# Argumentos
 # Projeto 3 - Extração de Dados via API com Apache Airflow
 
 # Imports
