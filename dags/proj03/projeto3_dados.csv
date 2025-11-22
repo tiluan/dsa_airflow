@@ -1,0 +1,2 @@
+temperature,wind_speed,condition,precipitation,humidity,feels_like_temp,pressure,visibility,is_day,timestamp,ID
+27.1,5.0,Sunny,0.0,51,27.7,1015.0,10.0,True,2025-11-22 13:04:48.022261,2025-11-22 13:04:48.022261-27.1
